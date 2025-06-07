@@ -1,5 +1,5 @@
 # electron-chromium-codecs-osx
-This is a port of patches made by @ThaUnknown for linux and windows for osx. The patches enable AC3 and EAC3 in electron for media to play.
+The patches enable AC3, EAC3 and HEVC in electron for media to play.
 
 # Build Instructions
 ## 1. Requirements
@@ -79,4 +79,4 @@ $ ninja -C out/Release electron:electron_dist_zip
 The final dist.zip will be in /src/out/Release.
 
 # Credits 
-Thanks @ThaUnknown for the original linux and windows patches. 
+Thanks [@ThaUnknown](https://github.com/ThaUnknown) for the chromium and electron patches. 
